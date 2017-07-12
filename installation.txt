@@ -1,0 +1,14 @@
+Step 1) close eclipse, find ".m2" folder in your PC then delete it
+
+Step 2) open eclipse again
+
+Step 3) find the pom.xml inside the Framework folder then do the following steps:
+	Step a) right click > Run as > Maven build.. 
+
+	Step b) Input the following in goal
+
+	-U dependency:resolve
+
+	then click Run
+
+	Step c) right click > Run as > Maven install 
